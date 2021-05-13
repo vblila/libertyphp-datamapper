@@ -1,0 +1,44 @@
+{
+  "name": "libertyphp/datamapper",
+  "description": "The LibertyPHP Datamapper. Simple and powerful datamapper for MySQL and PostgreSQL.",
+  "version": "1.0.0",
+  "type": "library",
+  "keywords": [
+    "framework",
+    "datamapper",
+    "orm",
+    "libertyphp",
+    "mysql",
+    "postgresql",
+    "database"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vladimir Lila",
+      "email": "v.b.lila@yandex.ru",
+      "homepage": "https://github.com/vblila",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.4|^8.0",
+    "ext-pdo": "*",
+    "ext-pgsql": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Libertyphp\\Datamapper\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Libertyphp\\Datamapper\\Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
