@@ -1,7 +1,7 @@
 {
   "name": "libertyphp/datamapper",
   "description": "The LibertyPHP Datamapper. Simple and powerful datamapper for MySQL and PostgreSQL.",
-  "version": "1.0",
+  "version": "1.1",
   "type": "library",
   "keywords": [
     "framework",
