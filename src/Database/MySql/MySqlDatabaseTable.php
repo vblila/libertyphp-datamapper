@@ -104,7 +104,7 @@ abstract class MySqlDatabaseTable
         $pk = static::getPrimaryKeyName();
 
         if (empty($row[$pk])) {
-            if (isset($row[$pk])) {
+            if (array_key_exists($pk, $row)) {
                 unset($row[$pk]);
             }
 
